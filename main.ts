@@ -5,7 +5,7 @@ import { join } from "node:path";
 // The One-Line Cat Joke That Lands — one line about the mug that keeps
 // ending up on the floor every single morning.
 const LINE =
-  "My cat has knocked the same mug off the table three mornings in a row, and honestly at this point I think she's just checking gravity still works.";
+  "My cat pushed my mug off the table this morning, looked me dead in the eye, and pushed the coaster off too, just so I'd know it wasn't an accident.";
 
 if (LINE.length < 1 || LINE.length > 200) {
   throw new Error(`entry must be 1-200 characters, got ${LINE.length}`);
